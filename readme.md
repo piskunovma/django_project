@@ -4,8 +4,8 @@
 
 ## Стек
 
-* Python>3.7.5
-* Django<3.1
+* Python>3.5
+* Django<3.0
 * VSCode
 * SQLite3
 
