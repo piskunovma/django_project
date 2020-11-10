@@ -1,12 +1,12 @@
 {% extends 'adminapp/base.html' %}
-{% load staticfiles %}
+{% load crispy_forms_tags %}
 
 
 {% block content %}
 <div class="new_category_form">
     <form class="form-horizontal" method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form.as_p }}
+        {{ form|crispy }}
         <input class="form-control" type="submit" value="сохранить">
     </form>
     <button class="btn btn-round form-control last">
@@ -15,4 +15,4 @@
         </a>
     </button>
 </div>
-{% endblock content %}
+{% endblock content %} 
