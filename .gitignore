@@ -223,6 +223,8 @@ fabric.properties
 
 # geekshop --->
 
+.secrets
 tmp
+
 
 # <--- geekshop
