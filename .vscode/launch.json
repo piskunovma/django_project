@@ -5,15 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Django_shop",
+            "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/manage.py",
             "args": [
                 "runserver",
                 "0.0.0.0:8080"
             ],
+            "django": true
         }
     ]
 }
