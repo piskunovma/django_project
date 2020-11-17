@@ -1,4 +1,4 @@
-rom django.db import transaction
+from django.db import transaction
 from django.db.models.signals import pre_delete, pre_save
 from django.dispatch import receiver
 from django.forms import inlineformset_factory
