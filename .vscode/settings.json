@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/mihail/Документы/Project_django/venv/bin/python"
+    "python.pythonPath": "/home/miha/Документы/django/venv/bin/python",
+    "python.linting.enabled": false
 }
