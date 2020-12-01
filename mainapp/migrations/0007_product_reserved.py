@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('mainapp', '0006_product_is_active'),
+        ("mainapp", "0006_product_is_active"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='product',
-            name='reserved',
-            field=models.PositiveIntegerField(default=0, verbose_name='зарезервировано'),
+            model_name="product",
+            name="reserved",
+            field=models.PositiveIntegerField(default=0, verbose_name="зарезервировано"),
         ),
     ]
