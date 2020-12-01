@@ -46,4 +46,3 @@ def save_user_profile(backend, user, response, *args, **kwargs):
             raise AuthForbidden("social_core.backends.vk.VKOAuth2")
 
     user.save()
-
